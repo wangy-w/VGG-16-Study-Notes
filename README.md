@@ -6,7 +6,7 @@ VGG模型于2014年诞生于Visual Geometry Group 实验室，是ILSVRC 2014的�
 （接下来均已VGG-16D为例子）
 
 ##  VGG-16D网络结构
-
+![image](network.png)
 
 ## VGG-16D的网络特点：
 
@@ -19,7 +19,9 @@ VGG模型于2014年诞生于Visual Geometry Group 实验室，是ILSVRC 2014的�
 ## 5个VGG BLOCK保持输入输出一致的秘密：
 
 输入与输出特征图之间分辨率的关系：
-
+![image](convolution.png)
+![image](formula1.png)
+![image](formula2.png)
 
 H，W分别为输入特征图高与宽；OH，OW分别为输出特征图高与宽；FH与FW分别为卷积核或者池化感受野的高与宽；P是输入特征图的填充值；S为卷积核与特征图进行卷积时移动的步长。
 
